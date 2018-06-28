@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">VRDS Duel Tools</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_1">1</string>
+    <string name="_3">3</string>
+    <string name="clear">Clear</string>
+    <string name="reset">Reset</string>
+    <string name="_000">000</string>
+    <string name="_00">00</string>
+    <string name="_0">0</string>
+    <string name="_2">2</string>
+    <string name="dice">Dice</string>
+    <string name="coin">Coin</string>
+    <string name="_8000">8000</string>
+    <string name="player_2">Player 2</string>
+    <string name="player_1">Player 1</string>
+    <string name="card_description">Card Description</string>
+    <string name="card_images_courtesy_of_ygohub">Card Images courtesy of YGOHub</string>
+    <string name="search">Search</string>
+    <string name="card_name">Card Name</string>
+    <string name="button">Button</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="pass_turn">Pass Turn</string>
+    <string name="p1_lp">P1 LP</string>
+    <string name="p2_lp">P2 LP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">NAV HEADER DESC</string>
+    <string name="nav_header_title">NAV HEADER TITLE</string>
+    <string name="nav_header_subtitle">NAV HEADER SUBTITLE</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="turn_player">Turn Player</string>
+    <string name="_0000">0000</string>
+</resources>

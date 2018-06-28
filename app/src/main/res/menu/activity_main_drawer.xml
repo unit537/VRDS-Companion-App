@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Main Menu" >
+        <menu>
+            <item
+                android:id="@+id/nav_lpcalc"
+                android:icon="@drawable/calculator"
+                android:title="LP Calculator" />
+            <item
+                android:id="@+id/nav_cardlookup"
+                android:icon="@drawable/cards_outline"
+                android:title="Card Lookup" />
+        </menu>
+    </item>
+    <item android:title="Coming Soon!">
+        <menu>
+            <item
+                android:id="@+id/nav_deckedit"
+                android:icon="@drawable/cards"
+                android:title="Deck Edit" />
+            <item
+                android:id="@+id/nav_cardcatologue"
+                android:icon="@drawable/book_open_page_variant"
+                android:title="Card Catalogue" />
+            <item
+                android:id="@+id/nav_VRDSLink"
+                android:icon="@drawable/virtual_reality"
+                android:title="Link to VRDS" />
+        </menu>
+    </item>
+</menu>

@@ -1,12 +1,14 @@
 package com.dev.unit537.vrds_companion_app;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -143,7 +145,6 @@ public class LPCalculatorFragment extends Fragment {
         }
 
         setupListeners();
-        //resetLPCalc();
         clearAllFocus();
     }
 
@@ -251,8 +252,7 @@ public class LPCalculatorFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getActivity(), "reset", Toast.LENGTH_SHORT).show();
-                // TODO: Dialogue to confirm reset whole calc
-                resetLPCalc();
+                resetDialog();
             }
         });
         clearButton.setOnClickListener(new View.OnClickListener() {
@@ -379,6 +379,28 @@ public class LPCalculatorFragment extends Fragment {
         }
         resetPhaseTracker();
         clearAllFocus();
+    }
+
+    private void resetDialog(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+
+        builder.setMessage("Reset LP Calculator? Are you sure?")
+                .setTitle("Reset LP Calc")
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        resetLPCalc();
+                    }
+                })
+                .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        // Do nothing
+                    }
+                });
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
     }
 
     private void resetLPCalc(){

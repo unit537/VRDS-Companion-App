@@ -42,4 +42,11 @@
     <string name="plus">+</string>
     <string name="turn_player">Turn Player</string>
     <string name="_0000">0000</string>
+    <string name="title_activity_delete_me">DeleteMe</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="action_example">Example action</string>
+    <string name="duelist_toolkit">Duelist Toolkit</string>
 </resources>

@@ -17,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:contentDescription="@string/app_name"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         app:srcCompat="@drawable/card" />
 
@@ -25,7 +26,7 @@
         android:layout_height="match_parent"
         android:layout_weight="4"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Duelist Toolkit"
+        android:text="@string/duelist_toolkit"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
 </LinearLayout>
